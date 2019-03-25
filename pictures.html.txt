@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Cool & Interesting Pictures</title>
+		
+	</head>
+	
+	<body>
+	
+		<h1>Welcome to Cool & Interesting Pictures!</h1>
+			</br>
+				<h3>Want to see some cool and interesting photos? Create an account with us!</h3>
+					<strong>Here's who we are and what we're about!</strong>
+						</br>
+						<p>Our goal is to showcase some wonderful photography regarding space, sports, plants, and wildlife! Below are some examples of what images you might see and how to create an account with us on our website!</p>
+							<em>CHECK OUT THE GALLERY FOR EXAMPLES</em>
+							</br>
+		<!-- NAV -->
+		<div>
+			<div>
+				<ul>
+					<a href="#gallery" id="link"><li>GALLERY</li></a>
+					<a href="#account" id="link"><li>ACCOUNT</li></a>
+				</ul>
+			</div>	
+		</div>
+		<!--END NAV -->
+		
+		<!--GALLERY -->
+		<div id="gallery">
+			<div>
+				<div>
+					<span>Space | Sports | Wildlife | Plants</span>
+				</div>
+			</div>
+		</div>
+		<section>
+			<div id="gallery">
+				<h1><blockquote>Gallery</h1></blockquote>
+				<div>
+			
+					<!-- PHOTO-CONTAINER 1 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_1.png" alt="">
+							<div>
+								<h3>Examples of Space Photos!</h3>
+								<p>To see more, please make sure to create an account with us.</p>
+							</div>						
+						</div>
+					</div>
+					<!-- END PHOTO-CONTAINER 1 -->
+					
+					<!-- PHOTO-CONTAINER 2 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_3.png" alt="">
+							<div>
+								<h3>Examples of Sports Photos!</h3>
+								<p>Here's an example of one of the best point guards in the NBA! Create an account for more Sports Photos!</p>
+							</div>						
+						</div>
+					</div>
+					<!-- END PHOTO-CONTAINER 2 -->
+					
+					<!-- PHOTO-CONTAINER 3 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_5.png" alt="">
+							<div>
+								<h3>Examples of Wildlife Photos!</h3>
+								<p>There's nothing more soothing than checking out some Wildlife!</p>
+							</div>						
+						</div>
+					</div>
+					<!-- END PHOTO-CONTAINER 3 -->
+					
+					<!-- PHOTO-CONTAINER 4 -->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_7.png" alt="">
+							<div>
+								<h3>Examples of Plant Photos!</h3>
+								<p>You're looking at a glimpse of an Iris Flower. Create an account to view more.</p>
+							</div>						
+						</div>
+					</div>
+					<!-- END PHOTO-CONTAINER 4 -->
+				</div>
+			</div>
+		</section>
+		<!-- END GALLERY -->
+		
+		
+		<!-- ACCOUNT -->
+		<section>
+			<div id="account">
+				<div>
+					<h1>CREATE AN ACCOUNT!</h1>
+					<div>
+						<h2><span>We do have a LOT more photos to view. To get started, please create an account with us to see more!</span>
+							<br />
+						</h2>
+						<p>
+							Please provide us with your basic contact information. 
+						</p>
+						<div>
+							<form action="" method="post">
+								<input class="account" type="text" value="First Name">
+								<input class="account" type="text" value="Last Name">
+								<input class="account" type="text" value="Email Address">
+								<div class="form-spacer">
+								</br>
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--END ACCOUNT -->
+
+		<!-- FOOTER -->
+		<div>
+			<hr>www.seecoolpictures.pics &nbsp;| &nbsp; &copy; 2019</hr>
+		</div>
+		<!-- END FOOTER -->	
+	</body>
+</html>
